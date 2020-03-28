@@ -264,7 +264,7 @@ class ObjectRemove(Packet):
 class AbilityRequest(Packet):
     """
     This is a packet sent from the client to the server to request to use an
-    ability. The server will sen dout an AbilityUsed packet if the request is
+    ability. The server will send out an AbilityUsed packet if the request is
     accepted.
     
     Required attributes:
